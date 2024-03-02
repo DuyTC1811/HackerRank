@@ -1,8 +1,10 @@
+#include <cstdio>
 #include <iostream>	
 using namespace std;
 
 int main() {
     int a, b;
+    printf("Input value A, B\n");
     scanf("%d %d", &a, &b);
     for (int i = a; i <= b; ++i) {
         switch (i) {
@@ -19,7 +21,6 @@ int main() {
                 if (i % 2 == 0) {
                     printf("even\n");
                 } else {
-                    printf("odd\n");
                 }
         } 
     }
