@@ -1,0 +1,4 @@
+.vscode
+C++/.cache/clangd/index
+C++/out/Debug
+C++/compile_commands.json
